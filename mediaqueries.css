@@ -1,0 +1,24 @@
+@media only screen and (max-width:472px)
+{ 
+.section5
+{  display:grid;
+    grid-gap: 3em;
+    
+   grid-template-columns: repeat(auto-fit,minmax(180px,1fr));
+   margin: 40px;
+}
+
+.div{
+    height: 300px;
+    
+    background-color: #ffffff;
+}
+.section6
+{ display: flex;
+  flex-wrap: wrap;
+}
+.navbar ul li{
+    list-style: none;
+    margin: 0 15px;
+ }
+}

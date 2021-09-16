@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body
+{ background: #E5E5E5;
+}
+
+.section1
+{ display:flex;
+    flex-direction: column;
+    margin:30px 30px 30px 30px
+}
+.section1 header h1
+{
+    font-size: 20px;
+    font-family:'Roboto', sans-serif;
+}
+.navbar{
+    margin-top: 40px;
+}
+.navbar ul{ 
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.navbar ul li{
+    list-style: none;
+ }
+ #list1
+ { font-size: 14px;
+    font-family:'Roboto', sans-serif;
+    color: #000000;
+} 
+#list2,#list3,#list4
+{  font-size: 14px;
+    font-family:'Roboto', sans-serif;
+    color: #969696;
+} 
+.section2 img
+{ 
+   
+    position: absolute;
+width:100%;
+height: 100%;
+left: 0px;
+top: 144px;
+
+background: url(image.png);
+border-radius: 80px 80px 0px 0px;
+}
+.section4
+{  position: absolute;
+    width: 100%;
+    /* height: 1000px; */
+    left: 0px;
+    top: 661px;
+    
+    background: #E5E5E5;
+    
+    border-radius: 80px 80px 0px 0px;
+}
+.section5
+{  display:grid;
+    grid-gap: 3em;
+    
+   grid-template-columns: repeat(auto-fit,minmax(300px,1fr));
+   margin: 40px;
+}
+
+.div{
+    height: 300px;
+    
+    background-color: #ffffff;
+}
+.section6
+{
+    background-color: #ffffff;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 30px 0;
+}
+.home
+{ height: 100px;
+    width:100px;
+   
+    padding: 25px;
+    box-sizing: border-box;
+}
+#home
+{ background-color: orangered;
+}
+.headinga,.heading2
+{ margin: 10px 24px;
+    font-size: 20px;
+    font-family: 'Roboto';
+}
+.heading2
+{ color:grey;
+}
+#cart1{ margin-left: 24px;
+}
+#cart2 img{ 
+    height: 90px;
+    margin-top: 28px;
+}
+#cart3 img{ 
+    height: 115px;
+    margin: 20px 21px;
+    margin-bottom: 0;
+}
+#cart4 img{ 
+    height: 115px;
+    margin: 20px 7px;
+    margin-bottom: 0;
+}
+.outer{
+    height:20px;
+    width:50px;
+    border:2px solid orangered;
+    border-radius:15px;
+    padding: 2px;
+    margin: 24px;
+}
+.inner{
+    height:20px;
+    width: 20px;
+    border-radius: 100%;
+    background-color: orangered;
+}
+
